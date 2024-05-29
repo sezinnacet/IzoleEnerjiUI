@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer-logo {
+    width: 10%;
+    text-align: right;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-logo {
+      width: 20%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-logo {
+      width: 30%;
+    }
+  }
+  
+  /* Footer yazı stili */
+  .footer-text {
+    font-size: 1.6rem; /* Varsayılan metin boyutu */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-text {
+      font-size: 1.3rem; /* Orta boyutlu ekranlar için metin boyutu */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-text {
+      font-size: 1.1rem; /* Küçük ekranlar için metin boyutu */
+    }
+  }
+  
+  /* Masaüstü tam ekran için footer yazısının aşağı inmesi */

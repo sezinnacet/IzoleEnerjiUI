@@ -1,0 +1,43 @@
+/* About.css dosyası */
+.about-container {
+    position: relative;
+    width: 100%;
+    background-image: url('../../images/banner.png');
+    background-size: contain;
+    background-position: center;
+    /* Arka plan opaklığı */
+}
+
+.about-content {
+    opacity: 0.95;
+    position: relative;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    /* İçeriğin arka planı hafif şeffaf beyaz */
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+
+    /* Yazı rengi */
+    max-width: 1200px;
+    /* İçeriğin genişliği */
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    /* Ortalamak için */
+}
+
+.about-content p {
+    opacity: 1;
+    margin-top: 20px;
+    font-size: 1.2em;
+    /* Yazı boyutunu artır */
+    line-height: 1.2;
+    /* Satır yüksekliği */
+    color: #222121;
+}
+
+.about-content img {
+    opacity: 1 !important;
+
+}

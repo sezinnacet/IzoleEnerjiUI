@@ -1,0 +1,33 @@
+.text-section {
+  display: flex;
+  max-width: 90%;
+  flex-direction: column;
+  padding: 45px 40px 0px 40px;
+  text-align: start;
+}
+
+.baslik {
+  font-size: 2em;
+  color: #ebf1ec;
+  line-height: 1.2;
+  padding: 2%;
+  font-weight: 800;
+}
+
+.yazi {
+  font-size: 1em;
+  color: #ebf1ec;
+  text-align: start;
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 0% 2% 0% 2%;
+}
+
+.yazi2 {
+  font-size: 1em;
+  color: #c4dac7;
+  text-align: start;
+  line-height: 1;
+  font-weight: 600;
+  padding: 2%;
+}
